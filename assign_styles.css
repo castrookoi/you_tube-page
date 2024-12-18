@@ -1,5 +1,7 @@
 .container-one{
-    align-items: center;
+    background-color: rgb(55, 107, 151);
+    width: 500px;
+    padding: 5px;
     
 }
 .uber-button {
@@ -9,6 +11,7 @@
   padding: 5px;
   height: 40px;
   border: none;
+  margin-right: 10px;
 }
 
 .amazon-button {
@@ -23,6 +26,7 @@
     font-weight: bold;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 14px;
+    margin-right: 10px;
   }
 
 
@@ -38,4 +42,5 @@
     font-weight: bold;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 14px;
+    margin-right: 10px;
   }
