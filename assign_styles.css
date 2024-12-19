@@ -135,7 +135,17 @@
 .challenge-amazon :nth-child(5) {
   background-color: rgb(255, 216, 20);
   border: none;
-  width: 100px;
+  width: 110px;
+  font-weight: bold;
+  border-radius: 50px;
+  height: 29px;
+}
+
+.challenge-amazon :nth-child(6) {
+  background-color: rgb(255, 164, 28);
+  border: none;
+  width: 110px;
+  font-weight: bold;
   border-radius: 50px;
   height: 29px;
 }
