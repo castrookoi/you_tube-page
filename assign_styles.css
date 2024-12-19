@@ -1,9 +1,8 @@
 /* Container 1 properties */
-.container-one{
-    background-color: rgb(55, 107, 151);
-    width: 500px;
-    padding: 5px;
-    
+.container-one {
+  background-color: rgb(55, 107, 151);
+  width: 500px;
+  padding: 5px;
 }
 .uber-button {
   color: white;
@@ -17,51 +16,49 @@
 }
 
 .amazon-button {
-    color: white;
-    background-color: rgb(255, 216, 20);
-    color: black;
-    width: 160px;
-    border-radius: 19px;
-    padding: 5px;
-    height: 39px;
-    border: none;
-    font-weight: bold;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 14px;
-    margin-right: 10px;
-    cursor: pointer;
-  }
+  color: white;
+  background-color: rgb(255, 216, 20);
+  color: black;
+  width: 160px;
+  border-radius: 19px;
+  padding: 5px;
+  height: 39px;
+  border: none;
+  font-weight: bold;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 14px;
+  margin-right: 10px;
+  cursor: pointer;
+}
 
+.github-button {
+  color: white;
+  background-color: rgb(45, 164, 79);
+  color: #fff;
+  width: 160px;
+  border-radius: 19px;
+  padding: 5px;
+  height: 39px;
+  border: none;
+  font-weight: bold;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 14px;
+  margin-right: 10px;
+  cursor: pointer;
+}
 
-  .github-button {
-    color: white;
-    background-color: rgb(45, 164, 79);
-    color: #fff;
-    width: 160px;
-    border-radius: 19px;
-    padding: 5px;
-    height: 39px;
-    border: none;
-    font-weight: bold;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 14px;
-    margin-right: 10px;
-    cursor: pointer;
-  }
-
-  /* Container 2 properties */
-.container-two{
+/* Container 2 properties */
+.container-two {
   display: flex;
   gap: 10px;
   align-items: center;
   background-color: grey;
   margin-top: 10px;
-  width: 800px;
+  width: 500px;
   padding: 5px;
-  
 }
 
-.bootstrap-button{
+.bootstrap-button {
   background-color: rgb(121, 82, 179);
   font-family: Arial, Helvetica, sans-serif;
   color: #fff;
@@ -69,12 +66,12 @@
   border-radius: 5px;
   width: 115px;
   height: 38px;
- font-weight: bold;
+  font-weight: bold;
   border: none;
   cursor: pointer;
 }
 
-.bootstrap1-button{
+.bootstrap1-button {
   background-color: #fff;
   font-family: Arial, Helvetica, sans-serif;
   color: grey;
@@ -87,7 +84,7 @@
   cursor: pointer;
 }
 
-.linkedin-button{
+.linkedin-button {
   background-color: rgb(10, 102, 194);
   font-family: Arial, Helvetica, sans-serif;
   color: #fff;
@@ -97,4 +94,48 @@
   width: 210px;
   height: 30px;
   cursor: pointer;
+}
+
+.linkedin1-button {
+  border: solid 1px rgb(10, 102, 194);
+  font-family: Arial, Helvetica, sans-serif;
+  color: rgb(10, 102, 194);
+  font-size: 13px;
+  border-radius: 16px;
+  background-color: #fff;
+  width: 90px;
+  height: 34px;
+  cursor: pointer;
+}
+
+.challenge-amazon {
+  background-color: aliceblue;
+  padding: 10px;
+}
+
+.challenge-amazon a {
+  color: rgb(0, 113, 133);
+  font-weight: bold;
+}
+
+.challenge-amazon p:nth-of-type(1) {
+  font-weight: bolder;
+  font-size: 20px;
+}
+
+.challenge-amazon p:nth-of-type(2) {
+  color: rgb(0, 118, 0);
+  font-weight: bold;
+}
+
+.challenge-amazon p:nth-of-type(3) {
+  font-family: "Times New Roman", Times, serif;
+}
+
+.challenge-amazon :nth-child(5) {
+  background-color: rgb(255, 216, 20);
+  border: none;
+  width: 100px;
+  border-radius: 50px;
+  height: 29px;
 }
